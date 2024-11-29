@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Shoreline Toy Shop</title>
+
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+ <link rel="stylesheet" href="style.css">
+
+<script src="script.js"></script>
+
+</head>
+<body>
+    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/banner.png?v=1684335100000" width="100%">
+   
+    <div class="container-fluid brand-div text-center">
+        <h1 class="shop-name">Shoreline Toy Shop</h1>
+        <div class="col-md-12">
+            <p class="text-center">
+                Playing games increase your kid's creative thinking capacity.kids are always creative.When they play, 
+                they develop their imagination,skills and physical,intellectual, and emotianal strength.Playing is an important exercise for healthy brain development.
+                Through playing,kids interact with the world around them.
+            </p>
+        </div>
+
+        <div class="col-md-12">
+            <h2>Why us?</h2>
+            <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/why%20us.png?v=1684335201190" width="100%">
+        </div>
+    </div>
+
+    <div class="container-fluid offers">
+        <div class="col-md-6">
+            <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/kids.jpg?v=1684335163729" width="700px" >
+        </div>
+        <div class="col-md-6">
+            <div class="special-div">
+                <h2>You are special to us!</h2>   
+                <p>We are providing to all toys at a discounted price, so you can buy a maximum of four toys at a time.</p> 
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="col-md-12">
+          <h2  class="text-center">Our Products</h2>  
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/drum.jpg?v=1684335137012"  width="150px" height="200px">
+                <p>Drum / - 2 Coins</p>
+            <button class="button" id="toy1" onclick="updateCart()">
+                <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235">Add to cart
+             </button>
+            </div>
+        </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/rings.webp?v=1684335171603" width="150px" height="200px">
+                    <p>Stacking Rings / - 2 Coins</p>
+                    <button class="button" id="toy2" onclick="updateCart()">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235" >Add to cart
+                </button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/bear.jpg?v=1684335108265"  width="150px" height="200px">
+                    <p>Dancing Bear / - 2 Coins</p>
+                    <button class="button" id="toy3" onclick="updateCart()">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235">Add to cart
+                </button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/robbot.webp?v=1684335180027"  width="150px" height="200px">
+                    <p> Robo / - 2 Coins</p>
+                    <button class="button" id="toy4" onclick="updateCart()">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235">Add to cart
+                 </button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/car.jpg?v=1684335122996" width="150px" height="200px" >
+                    <p> Musical car / - 2 Coins</p>
+                    <button class="button" id="toy5" onclick="updateCart()">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235">Add to cart
+                 </button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/blocks.jpg?v=1684335115330"  width="150px" height="200px">
+                    <p>Alphabet Learning Blocks / - 2 Coins </p>
+                    <button class="button" id="toy6" onclick="updateCart()">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235">Add to cart
+                 </button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/ball.avif?v=1684335093372" width="150px" height="200px">
+                    <p>Balls / - 2 Coins</p>
+                    <button class="button" id="toy7"  onclick="updateCart()">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235">Add to cart
+                </button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/horse.jpg?v=1684335152589" width="150px"height="200px" >
+                    <p>Horse Rider / - 2 Coins</p>
+                    <button class="button" id="toy8"  onclick="updateCart()">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235">Add to cart
+                </button>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/xylophone.webp?v=1684335213616"  width="150px" height="200px">
+                    <p>Xylophone / - 2 Coins</p>
+                    <button class="button" id="toy9"  onclick="updateCart()">
+                    <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235" >Add to cart
+                </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="check-cart">
+            <img src="https://cdn.glitch.global/d045de7d-6433-4f9b-866c-f98b761c6bb4/shopping-cart.png?v=1684335188235" width="40px">
+
+              Cart Value: <span id="cart-value"></span>
+            <button class="checkout" onclick="checkOut()">Checkout
+            </button>
+        </div>
+
+        <div class="container-fluid contact-us">
+            <div class="col-md-6">
+                <h2>Contact Us</h2>
+                <p>Once you place the order, contact us hear.
+                    <br>
+                </p>
+                <p>
+                    Email: <br>
+                    Phone: <br>
+                    Adress: <br>
+                </p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="contact-form">
+                    <form action="sucess.html">
+                        <input type="text" class="">
+                        <button class="subscribe-btn">Subscribe</button>
+                       <br>
+                       <br>
+                       <br>
+                    </form>
+                    <div><p>About Us</p></div>
+                    <div><p>Privacy Policy</p></div>
+                    <div><p>Terms and Conditions</p></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>

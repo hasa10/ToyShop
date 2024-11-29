@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  font-family: 'Roboto' , sans-serif;
+  color:#000000;
+}
+.shop-name {
+  font-weight: 800;
+}
+.brand-div > h1,h2 {
+  color: #05b1f0;
+}
+p{
+  font-size: 140%;
+}
+p,h2,h1 {
+  font-weight: bold;
+}
+.card {
+  transition: transform 1s;
+  box-shadow: 5px 0 5px #3e3939;
+  padding: 20px;
+  border: 3px solid rgb(0,0,0);
+  margin: 20px 10px;
+  position: relative;
+}
+.card > img {
+  margin: 10px;
+}
+.card > .button {
+  border: 3px solid #f8b0e9;
+  color: #280303;
+  background: #ffffff;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -30px;
+  left: 25%;
+  height:50px;
+  margin: 10px;
+}
+@keyframes float {
+  0% , 100% {
+    bottom: -30px;
+  }
+  60% {
+        bottom: -25px;
+  }
+  30% {
+    bottom: -20px;
+  }
+}
+.card > .button:hover {
+  animation: float 3s infinite;
+  transition: top 0.2s ease;
+}
+.card-value {
+  display: none;
+}
+.special-div >h2 {
+  color: #ed2324;
+}
+.check-cart {
+  font-size:30px;
+  font-weight:bold;
+  margin: 50px 0 25px 25px;
+}
+.special-div {
+  padding: 100px 10px;
+}
+.checkout {
+  background: #52354a;
+  color: #ffffff;
+  width: 100%;
+  border-radius:30px;
+}
+.contact-us {
+  background: #6c037466;
+  color: #ffffff;
+  padding: 20px 100px;
+  margin: 50px 0 0 0;
+}
+.subscribe-btn {
+  background: #06263260;
+  border: 2px solid #ffffff;
+  border-radius: 7px;
+  font-size: medium;
+}
